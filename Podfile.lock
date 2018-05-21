@@ -1,0 +1,15 @@
+PODS:
+  - LNICoverFlowLayout (1.0.2)
+  - mLayout (0.1.3)
+
+DEPENDENCIES:
+  - LNICoverFlowLayout
+  - mLayout
+
+SPEC CHECKSUMS:
+  LNICoverFlowLayout: 6b3ab0dfbb7d2eb7448abf49262f4eb178f5659e
+  mLayout: 8222ce8cb0209406c3bcfe3a330b14f83d1e7165
+
+PODFILE CHECKSUM: 4486c3d115af349c78dba73bfc9a369064096e9c
+
+COCOAPODS: 1.4.0
