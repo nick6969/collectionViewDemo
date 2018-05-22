@@ -28,6 +28,8 @@
 		018E36B720B11E6200C24775 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 018E36B520B11E6200C24775 /* LaunchScreen.storyboard */; };
 		018E36C020B1224A00C24775 /* ScrollTwoDirectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018E36BF20B1224A00C24775 /* ScrollTwoDirectionVC.swift */; };
 		018E36C220B1277800C24775 /* ScrollTwoDirectionFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018E36C120B1277800C24775 /* ScrollTwoDirectionFlowLayout.swift */; };
+		01EB051320B3965600D395AD /* ParallaxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EB051220B3965600D395AD /* ParallaxVC.swift */; };
+		01EB051520B3966400D395AD /* ParallaxFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EB051420B3966400D395AD /* ParallaxFlowLayout.swift */; };
 		920C2CCD7B65D2CA18324D63 /* Pods_CollectionViewLayoutDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A8F328B5B5931816A716D3 /* Pods_CollectionViewLayoutDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +57,8 @@
 		018E36B820B11E6200C24775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		018E36BF20B1224A00C24775 /* ScrollTwoDirectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTwoDirectionVC.swift; sourceTree = "<group>"; };
 		018E36C120B1277800C24775 /* ScrollTwoDirectionFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTwoDirectionFlowLayout.swift; sourceTree = "<group>"; };
+		01EB051220B3965600D395AD /* ParallaxVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxVC.swift; sourceTree = "<group>"; };
+		01EB051420B3966400D395AD /* ParallaxFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxFlowLayout.swift; sourceTree = "<group>"; };
 		500306A7010A67639E7E2303 /* Pods-CollectionViewLayoutDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionViewLayoutDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CollectionViewLayoutDemo/Pods-CollectionViewLayoutDemo.release.xcconfig"; sourceTree = "<group>"; };
 		6D5DE68A79BBCFE75BB27191 /* Pods-CollectionViewLayoutDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionViewLayoutDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CollectionViewLayoutDemo/Pods-CollectionViewLayoutDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		D9A8F328B5B5931816A716D3 /* Pods_CollectionViewLayoutDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollectionViewLayoutDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -157,6 +161,7 @@
 		018E36AB20B11E6100C24775 /* CollectionViewLayoutDemo */ = {
 			isa = PBXGroup;
 			children = (
+				01EB051120B3964A00D395AD /* Parallax */,
 				017997FD20B1BBF7008FDFDB /* Transform3DVC */,
 				017997F820B1B714008FDFDB /* StopHeader */,
 				017997F320B1B558008FDFDB /* CardAnimate */,
@@ -181,6 +186,15 @@
 				018E36C120B1277800C24775 /* ScrollTwoDirectionFlowLayout.swift */,
 			);
 			path = ScrollTwoDirection;
+			sourceTree = "<group>";
+		};
+		01EB051120B3964A00D395AD /* Parallax */ = {
+			isa = PBXGroup;
+			children = (
+				01EB051220B3965600D395AD /* ParallaxVC.swift */,
+				01EB051420B3966400D395AD /* ParallaxFlowLayout.swift */,
+			);
+			path = Parallax;
 			sourceTree = "<group>";
 		};
 		51075B610321BDAE1E2806C5 /* Frameworks */ = {
@@ -330,11 +344,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				017997F720B1B56A008FDFDB /* CardAnimateFlowLayout.swift in Sources */,
+				01EB051320B3965600D395AD /* ParallaxVC.swift in Sources */,
 				017997F520B1B560008FDFDB /* CardAnimateVC.swift in Sources */,
 				017997F020B1B3C7008FDFDB /* VerticalCardFlowLayout.swift in Sources */,
 				018E36AF20B11E6100C24775 /* MainVC.swift in Sources */,
 				017997FF20B1BC4F008FDFDB /* Transform3DVC.swift in Sources */,
 				017997DD20B18BB1008FDFDB /* ClockVC.swift in Sources */,
+				01EB051520B3966400D395AD /* ParallaxFlowLayout.swift in Sources */,
 				017997FA20B1B72F008FDFDB /* StopHeaderVC.swift in Sources */,
 				017997E120B1A09F008FDFDB /* ClockCell.swift in Sources */,
 				018E36C220B1277800C24775 /* ScrollTwoDirectionFlowLayout.swift in Sources */,

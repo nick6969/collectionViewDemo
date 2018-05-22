@@ -28,6 +28,7 @@ class MainVC: UIViewController {
     lazy var cardAnimateButton: UIButton = buttonClourse("卡牌動畫")
     lazy var stopHeaderButton: UIButton = buttonClourse("固定 Header")
     lazy var transform3DButton: UIButton = buttonClourse("3D 動畫")
+    lazy var parallaxButton: UIButton = buttonClourse("Parallax")
 
     lazy var stackView: UIStackView = {
         let stackView = UIStackView(frame: .zero)
@@ -43,6 +44,7 @@ class MainVC: UIViewController {
         stackView.addArrangedSubview(self.cardAnimateButton)
         stackView.addArrangedSubview(self.stopHeaderButton)
         stackView.addArrangedSubview(self.transform3DButton)
+        stackView.addArrangedSubview(self.parallaxButton)
         return stackView
     }()
     
@@ -71,6 +73,8 @@ class MainVC: UIViewController {
             navigationController?.pushViewController(StopHeaderVC(), animated: true)
         case transform3DButton:
             navigationController?.pushViewController(Transform3DVC(), animated: true)
+        case parallaxButton:
+            navigationController?.pushViewController(ParallaxVC(), animated: true)
         default:
             break
         }
